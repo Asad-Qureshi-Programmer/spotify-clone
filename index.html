@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zain:wght@200;300;400;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="left">  
+    <header>
+      <img
+        src="./resources/Spotify_Full_Logo_RGB_White.png"
+        width="90px"
+        alt="Spotify Logo"
+      />
+
+      <nav>
+        <ul>
+          <li class="home">
+            <img src="./resources/homepage.png" width="25px" alt="Home" />
+            <p>Home</p>
+          </li>
+          <li class="search">
+            <img src="./resources/search.svg" width="21px" alt="Search" />
+            <p>Search</p>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <aside>
+      <div class="library">
+        <img
+          src="./resources/library.svg"
+          width="30px"
+          height="25px"
+          alt="Library"
+        />
+        <p>Your Library</p>
+        <img
+          src="./resources/plus.svg"
+          class="plusicon"
+          width="17px"
+          alt="plus icon"
+        />
+      </div>
+
+      <div class="miniscroll">
+        <!-- <div class="mini">
+          <p class="big">1) First Song </p>
+          <p class="small">Play Now</p>
+          <div class="btn"><button>Play</button></div>
+        </div> -->
+
+      <div class="songList">
+        <ul>
+          
+        </ul>
+      </div>
+        
+      </div>
+    </aside>
+
+  </div>
+
+    <main>
+      <div class="nav2">
+
+        
+
+        <div class="arrow">
+          <img src="./resources/hamburger.svg" width="35px" alt="slidebar" class="invert hamburger">
+        </div>
+        <div class="btns">
+          <button class="signup">Sign Up</button>
+          <button class="login">Log in</button>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="head">
+          <h1>Popular Radio</h1>
+          <p>show all</p>
+        </div>
+
+        <div class="sectionGallery">
+          
+
+          
+
+          
+        </div>
+      </div>
+
+      <div class="playslab">
+
+        <div class="songInfo">
+          <!-- <p class="name">Song Name</p>
+          <p class="artistName">Artist</p> -->
+        </div>
+
+        <div class="playbar">
+          <div class="btns">
+            <img
+              src="./resources/back.png"
+              alt="previous"
+              width="22px"
+              class="prev invert"
+              id="prev"
+            />
+            <img
+              class="invert playB"
+              id="play"
+              src="./resources/play-button.png"
+              width="20px"
+              alt="play"
+            />
+            <img
+              src="./resources/back.png"
+              alt="next"
+              width="22px"
+              class="next invert"
+              id="next"
+
+            />
+          </div>
+
+          <div class="track">
+            <div class="dot"></div>
+          </div>
+        </div>
+
+        <div class="duravol">
+        <div class="songDuration">00:00 / 00:00</div>
+        <div class="volume">
+          <img class="invert" src="./resources/volume.svg" alt="volume">
+          <div class="volSeekbar">
+            <div class="voldot"></div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </main>
+
+   
+
+    <script src="script.js"></script>
+  </body>
+</html>
